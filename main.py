@@ -2,7 +2,7 @@ from Crypto.PublicKey import RSA
 from Crypto import Random
 from Crypto.Cipher import AES, PKCS1_OAEP
 from Crypto.Util import Counter
-
+from sys import exit
 import argparse
 import os
 import sys
@@ -157,3 +157,5 @@ def main():
 
 if __name__=="__main__":
     main()
+
+exit()
